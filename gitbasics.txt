@@ -22,3 +22,7 @@ steps-----------------------------------------------
  19.git diff <commit-id> : it will show the difference of b/w the current version and the commited version
  20.git reset <commitid> - It will  do the soft reset
 21.git reset <commitid> --hard - It will do the hard reset with delter from local re alse
+22.git remote -v : it will provide the list of remote repositry links with local repositry
+git remote add origin <git repositry master> : creates the link between the local repositryy and the remote repositry 
+git push -u origin master : push fules in local rep to remote dir
+git pull origin master : pull the code from remote rep to local rep
