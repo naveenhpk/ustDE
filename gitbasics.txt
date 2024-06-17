@@ -1,0 +1,21 @@
+git --version ; GIVE THE CURRENT GIT VERSION
+GIT STATUS
+steps-----------------------------------------------
+ 1.git init : initializes the empty git repositry or reinitalise the existing git repositry
+ 2.git config --list: it displays all the git configuration set parameteres
+ 3.git config --get <parameter-name> : diaplays the value of given parameter-name
+ 4. git config --global user.email "naveenhpk06@gmail.com" :email of the github account
+ 5. git config --global user.name "naveenhpk": usernam of the github
+ 6. git status: give thr status of the file in the given git reposityr
+ 7.git add <filename> : add only the specific file
+ 8.git commit -m "initial version" it xill create the version with the given message
+ 9.git add * : add all the file fom directory to 
+ 10.git rm --cached <filename> or * : it removes file from thwe staging
+ 11.git rm --cached * -r : in case ther eis a folder -r is used to recursivelyt reomve files in the sub folders
+ 12.git rm --cached * Bike : removes  all files in  bikes
+ 13.git add -A:same as *
+ 14.git restore --staged <filename>: restore all the deletes files to working directory
+ 15.git rm --cached foldername/<filename> -f : to remove the files forcefully when ther is change in the files with working directory and staging
+ 16.get diff : showa the the diff in working dir file and staging file
+ 
+
