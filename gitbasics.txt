@@ -19,5 +19,6 @@ steps-----------------------------------------------
  16.get diff : showa the the diff in working dir file and staging file
  17.git show : shows all the change sdine in the files w.r.t previuos version
  18.git log: shows all the commit version
- git diff <commit-id> : it will show the difference of b/w the current version and the commited version
-
+ 19.git diff <commit-id> : it will show the difference of b/w the current version and the commited version
+ 20.git reset <commitid> - It will  do the soft reset
+21.git reset <commitid> --hard - It will do the hard reset with delter from local re alse
